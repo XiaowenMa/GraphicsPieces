@@ -18,6 +18,14 @@ Each piece consists of spheres and capped torus, with adjustable thickness and s
 
 The framerate was limited by my resources.
 
+## SDF - Floating Ghosts
+
+For this piece, I designed a stylized ghost character using neural SDFs; compensated for incomplete reconstruction of fine features (eyes/mouth) by applying Boolean subtraction to manually carve eye shapes in post-processing.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a3cdeab3-1c81-419d-a9bf-7a31a677c5a8" width="700" />
+</div>
+
+
 ## Volume Rendering
 For this piece, I used Fractal Brownian Motion (FBM) with Perlin Noise to create an animation that forms a guided ghost shape from random noise. I referred to the cloud implementation on ShaderToy as inspiration.
 
@@ -30,4 +38,18 @@ I modified the shape composition and utilized Bezier curves to animate the compo
 ![Ghost](https://github.com/user-attachments/assets/1d666d0d-6dce-467b-b507-2a99d85248bc)
 -->
 
-## On going - Gaussian Splatting
+## 2D Gaussian Splatting
+
+Optimized 2D gaussians with splat-size regularization to simulate pointillist rendering (inspired by Seurat); implemented 2D splatting in a fragment shader with explored controlled, artistic outputs.
+<!--
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/fe02df7e-0ac0-459e-ada5-2b0ecf58fbf9" width="700" />
+</div>
+
+-->
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4410d4f1-5100-47a3-9d0d-869cb8ac93e0" width="700" />
+</div>
+
+
