@@ -52,4 +52,6 @@ Optimized 2D gaussians with splat-size regularization to simulate pointillist re
   <img src="https://github.com/user-attachments/assets/4410d4f1-5100-47a3-9d0d-869cb8ac93e0" width="700" />
 </div>
 
+## Point-Based Dynamics
+
 
